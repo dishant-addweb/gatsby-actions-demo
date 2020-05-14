@@ -36,9 +36,9 @@ jobs:
       with:
         command: ls -la
         host: ${{ secrets.host }}
-        SSH_PRIVATE_KEY: $ {{ secrets.SSH_KEY_ADDWEB_PROJECTS }}
-        REMOTE_USER: $ {{ secrets.user}}
-        REMOTE_PORT: $ {{secrets.port}}  
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY_ADDWEB_PROJECTS }}
+        REMOTE_USER: ${{ secrets.user}}
+        REMOTE_PORT: ${{secrets.port}}  
         # Source directory
         SOURCE: 
           public
